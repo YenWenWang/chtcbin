@@ -1,0 +1,306 @@
+000 (2796699.000.000) 02/18 16:51:47 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=3899130_7158_3>
+...
+009 (2796699.000.000) 02/18 17:27:05 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+000 (2887006.000.000) 02/23 17:29:40 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=3899130_7158_3>
+...
+007 (2887006.000.000) 02/23 17:30:23 Shadow exception!
+	Error from slot1_1@build0001.chtc.wisc.edu: SHADOW at 128.105.244.191 failed to send file(s) to <128.104.101.10:38171>: error reading from /home/ywang883/combined.tar.gz: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.105.244.191:9618>
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (2887006.000.000) 02/23 17:30:23 Job was held.
+	Error from slot1_1@build0001.chtc.wisc.edu: SHADOW at 128.105.244.191 failed to send file(s) to <128.104.101.10:38171>: error reading from /home/ywang883/combined.tar.gz: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.105.244.191:9618>
+	Code 13 Subcode 2
+...
+000 (2887204.000.000) 02/23 17:31:15 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=3899130_7158_3>
+...
+001 (2887204.000.000) 02/23 17:32:47 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (2887204.000.000) 02/23 17:32:55 Image size of job updated: 1444
+	2  -  MemoryUsage of job (MB)
+	1436  -  ResidentSetSize of job (KB)
+...
+006 (2887204.000.000) 02/23 17:35:24 Image size of job updated: 1460
+	2  -  MemoryUsage of job (MB)
+	1608  -  ResidentSetSize of job (KB)
+...
+004 (2887204.000.000) 02/23 17:35:24 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 358138     1048576   1531328 
+	   Ioheavy              :                            0 
+	   Memory (MB)          :      2        1024      1024 
+...
+009 (2887204.000.000) 02/23 17:35:24 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+009 (2887006.000.000) 02/23 17:50:59 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+000 (4522354.000.000) 03/22 10:44:58 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=3899130_7158_38>
+...
+009 (4522354.000.000) 03/22 10:47:45 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+000 (4522356.000.000) 03/22 10:52:11 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=3899130_7158_38>
+...
+001 (4522356.000.000) 03/22 10:53:46 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (4522356.000.000) 03/22 10:53:54 Image size of job updated: 1456
+	2  -  MemoryUsage of job (MB)
+	1448  -  ResidentSetSize of job (KB)
+...
+006 (4522356.000.000) 03/22 10:54:44 Image size of job updated: 1456
+	2  -  MemoryUsage of job (MB)
+	1624  -  ResidentSetSize of job (KB)
+...
+005 (4522356.000.000) 03/22 10:54:44 Job terminated.
+	(1) Normal termination (return value 255)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.03        1         1 
+	   Disk (KB)            :    32     1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :     2        1024      1024 
+...
+000 (5807866.000.000) 04/03 16:10:46 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+040 (5807866.000.000) 04/03 16:11:47 Finished transferring input files
+...
+001 (5807866.000.000) 04/03 16:11:48 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5807866.000.000) 04/03 16:11:56 Image size of job updated: 1444
+	2  -  MemoryUsage of job (MB)
+	1440  -  ResidentSetSize of job (KB)
+...
+006 (5807866.000.000) 04/03 16:16:57 Image size of job updated: 1516
+	2  -  MemoryUsage of job (MB)
+	1512  -  ResidentSetSize of job (KB)
+...
+006 (5807866.000.000) 04/03 16:26:58 Image size of job updated: 1528
+	2  -  MemoryUsage of job (MB)
+	1524  -  ResidentSetSize of job (KB)
+...
+006 (5807866.000.000) 04/03 16:32:49 Image size of job updated: 1528
+	2  -  MemoryUsage of job (MB)
+	1616  -  ResidentSetSize of job (KB)
+...
+040 (5807866.000.000) 04/03 16:32:49 Started transferring output files
+...
+040 (5807866.000.000) 04/03 16:32:50 Finished transferring output files
+...
+005 (5807866.000.000) 04/03 16:32:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	84536064  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	84536064  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   875451  1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+...
+000 (5809561.000.000) 04/03 16:47:26 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+009 (5809561.000.000) 04/03 16:47:33 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+000 (5809562.000.000) 04/03 16:47:59 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+040 (5809562.000.000) 04/03 16:48:57 Finished transferring input files
+...
+001 (5809562.000.000) 04/03 16:48:58 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5809562.000.000) 04/03 16:49:07 Image size of job updated: 1800
+	2  -  MemoryUsage of job (MB)
+	1796  -  ResidentSetSize of job (KB)
+...
+006 (5809562.000.000) 04/03 16:54:07 Image size of job updated: 2792
+	3  -  MemoryUsage of job (MB)
+	2788  -  ResidentSetSize of job (KB)
+...
+006 (5809562.000.000) 04/03 16:59:07 Image size of job updated: 2800
+	3  -  MemoryUsage of job (MB)
+	2796  -  ResidentSetSize of job (KB)
+...
+007 (5809562.000.000) 04/03 19:12:38 Shadow exception!
+	Error from slot1_1@build0001.chtc.wisc.edu: disk usage exceeded request_disk
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+009 (5809562.000.000) 04/03 19:12:38 Job was aborted by the user.
+	via condor_rm (by user ywang883)
+...
+000 (5855736.000.000) 04/04 17:17:31 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+040 (5855736.000.000) 04/04 17:18:26 Finished transferring input files
+...
+001 (5855736.000.000) 04/04 17:18:27 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5855736.000.000) 04/04 17:18:35 Image size of job updated: 1448
+	2  -  MemoryUsage of job (MB)
+	1444  -  ResidentSetSize of job (KB)
+...
+006 (5855736.000.000) 04/04 17:23:35 Image size of job updated: 1504
+	2  -  MemoryUsage of job (MB)
+	1500  -  ResidentSetSize of job (KB)
+...
+006 (5855736.000.000) 04/04 17:28:36 Image size of job updated: 1588
+	2  -  MemoryUsage of job (MB)
+	1584  -  ResidentSetSize of job (KB)
+...
+006 (5855736.000.000) 04/04 17:29:03 Image size of job updated: 1588
+	2  -  MemoryUsage of job (MB)
+	1608  -  ResidentSetSize of job (KB)
+...
+040 (5855736.000.000) 04/04 17:29:08 Entered queue to transfer output files
+...
+040 (5855736.000.000) 04/04 17:29:14 Started transferring output files
+...
+040 (5855736.000.000) 04/04 17:29:14 Finished transferring output files
+...
+005 (5855736.000.000) 04/04 17:29:14 Job terminated.
+	(1) Normal termination (return value 255)
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	607698  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	607698  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            : 10610     1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :     2        1024      1024 
+...
+000 (5855826.000.000) 04/04 17:29:55 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+000 (5855839.000.000) 04/04 17:32:05 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+040 (5855826.000.000) 04/04 17:32:25 Finished transferring input files
+...
+001 (5855826.000.000) 04/04 17:32:28 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5855826.000.000) 04/04 17:32:37 Image size of job updated: 72
+	1  -  MemoryUsage of job (MB)
+	72  -  ResidentSetSize of job (KB)
+...
+040 (5855839.000.000) 04/04 17:33:11 Finished transferring input files
+...
+001 (5855839.000.000) 04/04 17:33:12 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5855839.000.000) 04/04 17:33:21 Image size of job updated: 1444
+	2  -  MemoryUsage of job (MB)
+	1440  -  ResidentSetSize of job (KB)
+...
+006 (5855826.000.000) 04/04 17:35:28 Image size of job updated: 4068
+	1  -  MemoryUsage of job (MB)
+	72  -  ResidentSetSize of job (KB)
+...
+040 (5855826.000.000) 04/04 17:35:28 Started transferring output files
+...
+040 (5855826.000.000) 04/04 17:35:28 Finished transferring output files
+...
+005 (5855826.000.000) 04/04 17:35:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       24  1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+...
+006 (5855839.000.000) 04/04 17:38:22 Image size of job updated: 1456
+	2  -  MemoryUsage of job (MB)
+	1452  -  ResidentSetSize of job (KB)
+...
+006 (5855839.000.000) 04/04 17:39:30 Image size of job updated: 246128
+	2  -  MemoryUsage of job (MB)
+	1604  -  ResidentSetSize of job (KB)
+...
+040 (5855839.000.000) 04/04 17:39:30 Started transferring output files
+...
+040 (5855839.000.000) 04/04 17:39:30 Finished transferring output files
+...
+005 (5855839.000.000) 04/04 17:39:30 Job terminated.
+	(1) Normal termination (return value 255)
+		Usr 0 00:00:13, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:13, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	2426637  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	2426637  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    14600  1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+...
+000 (5922710.000.000) 04/07 14:26:14 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&noUDP&sock=schedd_2744002_b6d4_6>
+...
+040 (5922710.000.000) 04/07 14:27:00 Finished transferring input files
+...
+001 (5922710.000.000) 04/07 14:27:01 Job executing on host: <128.104.101.10:9618?addrs=128.104.101.10-9618+[2607-f388-107c-501-a6ba-dbff-fe38-fc8f]-9618&noUDP&sock=5014_1a10_3>
+...
+006 (5922710.000.000) 04/07 14:27:10 Image size of job updated: 1444
+	2  -  MemoryUsage of job (MB)
+	1440  -  ResidentSetSize of job (KB)
+...
+006 (5922710.000.000) 04/07 14:32:11 Image size of job updated: 1476
+	2  -  MemoryUsage of job (MB)
+	1472  -  ResidentSetSize of job (KB)
+...
+006 (5922710.000.000) 04/07 14:37:12 Image size of job updated: 1952
+	2  -  MemoryUsage of job (MB)
+	1948  -  ResidentSetSize of job (KB)
+...
+040 (5922710.000.000) 04/07 14:44:37 Started transferring output files
+...
+040 (5922710.000.000) 04/07 14:44:37 Finished transferring output files
+...
+005 (5922710.000.000) 04/07 14:44:37 Job terminated.
+	(1) Normal termination (return value 255)
+		Usr 0 00:01:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1799896  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	1799896  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     1790  1048576   1531328 
+	   Ioheavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+...
