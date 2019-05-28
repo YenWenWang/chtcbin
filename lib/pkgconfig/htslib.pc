@@ -1,0 +1,15 @@
+includedir=/var/lib/condor/execute/slot1/dir_25487/htslib-1.9/../bin/include
+libdir=/var/lib/condor/execute/slot1/dir_25487/htslib-1.9/../bin/lib
+
+# Flags and libraries needed when linking against a static libhts.a
+# (used by manual and semi-manual pkg-config(1)-style enquiries).
+static_ldflags=-L//var/lib/condor/execute/slot1/dir_25487/htslib-1.9/../bin/lib
+static_libs=-lpthread -lz -lm -lbz2 -llzma -lcurl -lcrypto
+
+Name: htslib
+Description: C library for high-throughput sequencing data formats
+Version: 1.9
+Cflags: -I${includedir}
+Libs: -L${libdir} -lhts
+Libs.private: -L${libdir} -L//var/lib/condor/execute/slot1/dir_25487/htslib-1.9/../bin/lib -lbz2 -lhts -lm -lpthread
+Requires.private: zlib  liblzma
