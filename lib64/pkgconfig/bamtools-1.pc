@@ -1,0 +1,10 @@
+libdir=/var/lib/condor/execute/slot1/dir_1139/out/lib64
+includedir=/var/lib/condor/execute/slot1/dir_1139/out/include
+
+Name: BamTools
+Description: BamTools is a C++ library for reading and manipulating BAM files
+Version: 2.5.2
+
+Requires.private: zlib
+Libs: -L${libdir} -lbamtools
+Cflags: -I${includedir}/bamtools
